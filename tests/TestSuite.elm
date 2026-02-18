@@ -100,7 +100,7 @@ headersTest =
                         headers content
                             |> Query.fromHtml
 
-                    children : Query.Single msg
+                    children : Query.Multiple msg
                     children =
                         query |> Query.children []
                 in
@@ -123,7 +123,7 @@ headersTest =
                         headers str
                             |> Query.fromHtml
 
-                    children : Query.Single msg
+                    children : Query.Multiple msg
                     children =
                         query |> Query.children []
                 in
